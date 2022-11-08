@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Program perulangan Golang")
+	fmt.Println("===== Program percabangan Golang =====")
 
 	var angka int16 = 10
 
