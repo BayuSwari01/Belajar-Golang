@@ -42,7 +42,7 @@ func main() {
 		fmt.Println("ga ada error", hasil)
 	}
 
-	// penggunaan panic
+	// penggunaan panic. panic ini akan menghentikan program walaupun itu main program dan akan menampilkan persan error ke terminal
 	if hasil, err := cek(""); hasil {
 		fmt.Println("ga ada error", hasil)
 	} else {
